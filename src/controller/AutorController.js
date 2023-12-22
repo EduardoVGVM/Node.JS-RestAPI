@@ -14,7 +14,7 @@ class AutorController {
     static async listarAutorPorId(req, res) {
         try {
             const id = req.params.id;
-            const autorPorId = await autor.findById({id});
+            const autorPorId = await autor.findById(id);
             res.status(200).json(autorPorId);
         } catch (error) {
             res.status(500).json({message:`${error.message} - falha ao listar autor`})
