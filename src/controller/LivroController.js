@@ -28,7 +28,7 @@ class LivroController {
             const autorEncontrado = await autor.findById(novoLivro.autor);
             const livroCompleto = {...novoLivro, autor: {...autorEncontrado._doc}}
             const livroCriado = await livro.create(livroCompleto);
-            res.status(201).json({message:"Criado com sucesso!", livro:novoLivro});
+            res.status(201).json({message:"Criado com sucesso!", livro:livroCriado});
         } catch (error) {
             res.status(500).json({message:`${error.message} - falha ao cadastrar livro`})
         }
