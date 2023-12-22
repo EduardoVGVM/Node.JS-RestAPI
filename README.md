@@ -6,3 +6,6 @@
 
 # Como utilizar
 ## Para inserir um livro no BD, antes o usuário precisará criar um autor, para que este seja referenciado durante o POST do livro.
+
+# Link para o Curso
+## https://cursos.alura.com.br/course/node-js-api-rest-express-mongodb
