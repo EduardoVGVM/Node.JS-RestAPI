@@ -9,3 +9,4 @@
 
 # Link para o Curso
 ## https://cursos.alura.com.br/course/node-js-api-rest-express-mongodb
+## https://cursos.alura.com.br/course/node-js-buscas-filtros-paginacao-erros-api
